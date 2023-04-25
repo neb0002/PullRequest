@@ -1,3 +1,4 @@
+import math
 class Circulo:
     _radio = 0.0
 
@@ -5,7 +6,7 @@ class Circulo:
         self._radio = radio
 
     def area(self):
-        pass
+        return math.pi*self._radio**2
 
     def circunferencia(self):
-        pass
+        return 2*math.pi*self._radio
